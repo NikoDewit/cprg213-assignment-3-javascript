@@ -67,7 +67,7 @@ fullDay.addEventListener("click", fullDaySelected);
 /********* calculate *********/
 // when a calculation is needed, set the innerHTML of the calculated-cost element to the appropriate value
 function recalculate() {
-  calculateCost = costPerDay * daysSelected;
+  const calculateCost = costPerDay * daysSelected;
   const cost = document.getElementById("calculated-cost");
   cost.textContent = calculateCost;
 }
