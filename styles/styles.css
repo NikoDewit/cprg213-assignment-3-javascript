@@ -217,7 +217,7 @@ img[src="images/dog-yellow-background.jpg"] {
     - the edges of the button will line up exactly with the text-area element. HINT: time for some math!
 */
 .contact {
-  height: 60vh;
+  height: 80vh;
   text-align: center;
   width: 100%;
 }
